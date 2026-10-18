@@ -880,6 +880,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 657140670}
   m_LocalEulerAnglesHint: {x: 66.626, y: -30, z: 0}
+--- !u!1 &228168566 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6150453587134264652, guid: eecaddbf744edcd4da366523704a44cf, type: 3}
+  m_PrefabInstance: {fileID: 3093767352584955642}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &238008024
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1975,6 +1980,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1713362403811652473, guid: 56ed3a9564f932e4aba6babf56657f5c, type: 3}
   m_PrefabInstance: {fileID: 2878426043443916151}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &570843715 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3177474708539373654, guid: 56ed3a9564f932e4aba6babf56657f5c, type: 3}
+  m_PrefabInstance: {fileID: 2878426043443916151}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570843712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b6fae7b6352c154097c35d503e42e12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &570843716 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4615855687673498026, guid: 56ed3a9564f932e4aba6babf56657f5c, type: 3}
@@ -2003,6 +2019,8 @@ MonoBehaviour:
   - rid: 1632273810365350008
   - rid: 1632273810365350009
   - rid: 1632273810365350635
+  - rid: 1632273811507511418
+  - rid: 1632273811507512086
   references:
     version: 2
     RefIds:
@@ -2030,6 +2048,26 @@ MonoBehaviour:
           m_Value1: 988434216657370182
         Name: New Range Detector
         m_Value: {fileID: 570843716}
+    - rid: 1632273811507511418
+      type: {class: 'BlackboardVariable`1[[LineOfSightDetector, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 15574942972469142858
+          m_Value1: 3896192369342976500
+        Name: New Line Of Sight Detector
+        m_Value: {fileID: 570843715}
+    - rid: 1632273811507512086
+      type: {class: 'BlackboardVariable`1[[System.Collections.Generic.List`1[[UnityEngine.GameObject, UnityEngine.CoreModule]], mscorlib]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 1048444814726963735
+          m_Value1: 13124788812256491054
+        Name: PatrolPoints
+        m_Value:
+        - {fileID: 228168566}
+        - {fileID: 1196272681}
+        - {fileID: 727264867}
+        - {fileID: 2039517863}
 --- !u!4 &573529576 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2647441174054243043, guid: eecaddbf744edcd4da366523704a44cf, type: 3}
@@ -2919,6 +2957,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 6919837021182117514, guid: 3321d311e79c09b4a95a10d83248eb0b, type: 3}
   m_PrefabInstance: {fileID: 717866469}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &727264867 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6150453587134264652, guid: eecaddbf744edcd4da366523704a44cf, type: 3}
+  m_PrefabInstance: {fileID: 816951747}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &750440802
 PrefabInstance:
@@ -4167,6 +4210,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 6919837021182117514, guid: 3321d311e79c09b4a95a10d83248eb0b, type: 3}
   m_PrefabInstance: {fileID: 1195187185}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1196272681 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6150453587134264652, guid: eecaddbf744edcd4da366523704a44cf, type: 3}
+  m_PrefabInstance: {fileID: 1584055632}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1234231129
 PrefabInstance:
@@ -6289,6 +6337,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 6919837021182117514, guid: 3321d311e79c09b4a95a10d83248eb0b, type: 3}
   m_PrefabInstance: {fileID: 1996488944}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2039517863 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6150453587134264652, guid: eecaddbf744edcd4da366523704a44cf, type: 3}
+  m_PrefabInstance: {fileID: 1732530632}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2053830788
 PrefabInstance:
